@@ -1,0 +1,67 @@
+# Xcode
+#
+build/
+DerivedData/
+.idea/
+*.hmap
+*.ipa
+*.xcuserdatad
+*.xcuserstate
+*.moved-aside
+*.xcworkspace
+!default.xcworkspace
+*.xcscmblueprint
+
+# Swift Package Manager
+#
+.build/
+
+# Carthage
+#
+Carthage/Build/
+
+# CocoaPods
+#
+Pods/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+#
+.idea/
+
+# AppCode
+#
+*.iml
+
+# CocoaPods
+#
+Pods/
+
+# fastlane
+#
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+.fastlane/
+
+# Crashlytics
+#
+fabric.properties
+.crashlytics/
+.crashlytics.config/
+.dsymutil/
+.sym/
+app/src/main/assets/crashlytics-build.properties
+
+# Other
+#
+*.log
+.DS_Store
+.env
